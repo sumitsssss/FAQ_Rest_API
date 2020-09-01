@@ -1,0 +1,23 @@
+POST http://localhost:5000/api/v1/faqs
+Content_Type:application/json
+
+{
+    "question": "Why u du this?",
+}
+
+
+
+###
+GET http://localhost:5000/api/v1/faqs
+
+###
+PUT http://localhost:5000/api/v1/faqs/5
+
+###
+DELETE http://localhost:5000/api/v1/faqs/5
+
+
+###
+GET http://localhost:5000/api/v1/faqs/5
+
+
